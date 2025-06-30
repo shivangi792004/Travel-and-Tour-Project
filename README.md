@@ -7,7 +7,7 @@ PlanMyWay.com is a responsive and interactive travel and tour website built with
 
 ## 🚀 Live Preview
 
-> 🔗 [PlanMyWay.com (Demo Link)]([https://your-live-link.com](https://shivangi792004.github.io/Travel-and-Tour-Project/))  
+> 🔗 [PlanMyWay.com (Demo Link)]([https://shivangi792004.github.io/Travel-and-Tour-Project/])  
 > *(Replace with your live GitHub Pages or Netlify link)*
 
 ---
