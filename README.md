@@ -34,20 +34,4 @@ PlanMyWay.com is a responsive and interactive travel and tour website built with
 
 ---
 
-## 📂 Folder Structure
-
-PlanMyWay/
-│
-├── css/
-│ └── style.css
-│
-├── js/
-│ └── script.js
-│
-├── images/
-│ └── [all website images]
-│
-├── index.html
-├── contact_us.php (optional backend)
-└── README.md
 
