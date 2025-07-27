@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tour & Travel</title>
+
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+  <!-- Iconscout CDN -->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Smooth Scroll -->
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Header Section -->
+  <header class="header">
+    <a href="#" class="logo"><i class="fas fa-hiking"></i> travel.com</a>
+    <nav class="navbar">
+      <div id="nav-close" class="fas fa-times"></div>
+      <a href="#home">home</a>
+      <a href="#category">Adventures</a>
+      <a href="#packages">packages</a>
+      <a href="#contact">contact</a>
+    </nav>
+    <div class="icons">
+      <div id="menu-btn" class="fas fa-bars"></div>
+      <div id="search-btn" class="fas fa-search"></div>
+    </div>
+  </header>
+
+  <!-- Search Form -->
+  <div class="search-form">
+    <div id="close-search" class="fas fa-times"></div>
+    <form action="">
+      <input type="search" placeholder="Search here..." id="search-box" />
+      <label for="search-box" class="fas fa-search"></label>
+    </form>
+  </div>
+
+  <!-- Home Section with Slider -->
+  <section class="home" id="home">
+    <div class="slider">
+      <div class="slide active" style="background-image: url('https://images.unsplash.com/photo-1607746882042-944635dfe10e');"></div>
+      <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb');"></div>
+      <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e');"></div>
+      <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1558979158-65a1eaa08691');"></div>
+      <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1541233349642-6e425fe6190e');"></div>
+
+      <div class="content">
+        <span>never stop</span>
+        <h3>exploring</h3>
+        <p>Travel.com offers best deals on India tour packages.</p>
+        <a href="#category" class="btn">get started</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Adventure Section -->
+  <section class="category" id="category">
+    <h1 class="heading">Adventure Idea!</h1>
+    <div class="box-container">
+      <div class="box">
+        <img src="images/category-1.jpg" alt="BungeeJumpingImg">
+        <h3>bungee jump</h3>
+        <p>Bungee jumping involves a person jumping from a great height while connected to a large elastic cord.</p>
+        <a href="https://en.wikipedia.org/wiki/Bungee_jumping" class="btn">read more</a>
+      </div>
+
+      <div class="box">
+        <img src="images/category-2.jpg" alt="ZipLinesImg">
+        <h3>zip lines</h3>
+        <p>A zip-line is a pulley suspended on a cable, usually made of stainless steel, mounted on a slope.</p>
+        <a href="https://en.wikipedia.org/wiki/Zip_line" class="btn">read more</a>
+      </div>
+
+      <div class="box">
+        <img src="images/category-3.jpg" alt="CanoeingImg">
+        <h3>canoeing</h3>
+        <p>Canoeing is an activity which involves paddling a canoe with a single-bladed paddle.</p>
+        <a href="https://en.wikipedia.org/wiki/Canoeing" class="btn">read more</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Packages Section -->
+  <section class="packages" id="packages">
+    <h1 class="heading">popular packages</h1>
+    <div class="box-container">
+
+      <!-- Package 1 -->
+      <div class="box">
+        <div class="image">
+          <img src="images/img-1.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>Manali Package</h3>
+          <p>Kullu Manali Shimla is perfect for newlyweds and travelers seeking serenity and great deals.</p>
+          <div class="price">Rs 5,999 - Rs 8,999</div>
+          <a href="#contact" class="btn">explore now</a>
+        </div>
+      </div>
+
+      <!-- Package 2 -->
+      <div class="box">
+        <div class="image">
+          <img src="images/img-2.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>Goa Package</h3>
+          <p>Goa’s Baga Beach, nightlife, and water sports make it a top destination for all ages.</p>
+          <div class="price">Rs 7,999 - Rs 12,999</div>
+          <a href="#contact" class="btn">explore now</a>
+        </div>
+      </div>
+
+      <!-- Package 3 -->
+      <div class="box">
+        <div class="image">
+          <img src="images/img-3.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>Delhi Package</h3>
+          <p>Delhi is home to stunning temples, tombs, gardens, forts, museums, and local markets.</p>
+          <div class="price">Rs 2,999 - Rs 8,999</div>
+          <a href="#contact" class="btn">explore now</a>
+        </div>
+      </div>
+
+      <!-- Package 4 -->
+      <div class="box">
+        <div class="image">
+          <img src="images/img-4.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>Jaipur Package</h3>
+          <p>Explore Rajasthan’s forts, deserts, lakes, palaces, fairs, and traditional villages.</p>
+          <div class="price">Rs 11,999 - Rs 15,999</div>
+          <a href="#contact" class="btn">explore now</a>
+        </div>
+      </div>
+
+      <!-- Package 5 -->
+      <div class="box">
+        <div class="image">
+          <img src="images/img-5.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>Kerala Package</h3>
+          <p>Enjoy the greenery, backwaters, hills, and custom tourism packages of Kerala.</p>
+          <div class="price">Rs 4,999 - Rs 9,999</div>
+          <a href="#contact" class="btn">explore now</a>
+        </div>
+      </div>
+
+      <!-- Package 6 -->
+      <div class="box">
+        <div class="image">
+          <img src="images/img-6.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>Darjeeling Package</h3>
+          <p>Ride the Himalayan Railway, visit Tiger Hill, and explore Darjeeling's scenic beauty.</p>
+          <div class="price">Rs 20,000 - Rs 25,000</div>
+          <a href="#contact" class="btn">explore now</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact Section (Using Formspree) -->
+  <section class="contact" id="contact">
+    <div class="wrapper1">
+      <div class="title1">
+        <h1>Contact us</h1>
+      </div>
+      <div class="contact-form">
+        <!-- 👉 Replace with your Formspree endpoint -->
+        <form method="POST" action="https://formspree.io/f/xnnzdarb">
+          <div class="input-fields">
+            <input type="text" class="input" placeholder="Name" name="name" required>
+            <input type="email" class="input" placeholder="Email Address" name="email" required>
+            <input type="tel" class="input" placeholder="Phone" name="phone">
+            <input type="text" class="input" placeholder="Subject" name="subject">
+          </div>
+          <div class="msg">
+            <textarea placeholder="Message" name="message" required></textarea><br>
+            <div class="btn1">
+              <button type="submit">Send <i class="uil uil-message"></i></button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <section class="footer">
+    <div class="box-container">
+      <div class="box">
+        <h3>Quick links</h3>
+        <a href="#home">home</a>
+        <a href="#packages">packages</a>
+        <a href="#query">query</a>
+      </div>
+
+      <div class="box">
+        <h3>Extra links</h3>
+        <a href="#contact">ask questions</a>
+        <a href="#">terms of use</a>
+        <a href="#">privacy policy</a>
+      </div>
+
+      <div class="box">
+        <h3>Contact Info</h3>
+        <a href="tel:+918688128210"><i class="fas fa-phone"></i> +91 7667101673</a>
+        <a href="mailto:shivangisingh8688@gmail.com"><i class="fas fa-envelope"></i> shivangisingh8688@gmail.com</a>
+        <a href="#"><i class="fas fa-map"></i> Telangan, India - 500004</a>
+      </div>
+
+      <div class="box">
+        <h3>Follow us</h3>
+        <a href="https://www.facebook.com/profile.php?id=100015402934571"><i class="fab fa-facebook-f"></i> Facebook</a>
+        <a href="https://www.instagram.com/rajput__ab.hi/?__pwa=1"><i class="fab fa-instagram"></i> Instagram</a>
+        <a href="https://www.linkedin.com/in/shivangisingh04/"><i class="fab fa-linkedin"></i> LinkedIn</a>
+        <a href="https://github.com/shivangi792004"><i class="fab fa-github"></i> GitHub</a>
+      </div>
+    </div>
+    <div class="credit">Created by <span>Shivangi Singh</span> | All rights reserved!</div>
+  </section>
+
+  <!-- JS -->
+  <script src="js/script.js"></script>
+</body>
+</html>
