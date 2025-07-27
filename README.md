@@ -6,7 +6,7 @@ This is a fully responsive and visually appealing *Tour & Travel website* develo
 
 ## 🔗 Live Preview
 
-🎯 *Live Site*: [Click to View](https://abhi-2029.github.io/Tour_Project/)
+🎯 *Live Site*: [Click to View](https://shivangi792004.github.io/Travel-and-Tour-Project/)
 
 
 ---
